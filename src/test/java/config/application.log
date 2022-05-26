@@ -1,0 +1,15 @@
+26/05/2022 17:46:49 devpinoyLogger Executing test : Login
+26/05/2022 17:47:05 devpinoyLogger Result of test case execution - Pass
+26/05/2022 17:47:06 devpinoyLogger Result of test case execution - Pass
+26/05/2022 17:47:10 devpinoyLogger Result of test case execution - Fail
+26/05/2022 17:47:10 devpinoyLogger SCREENSHOT taken under : C:\Users\mindfire\Desktop\Demo Appium/Report/Suite1_TC1_TS3_verifyShoedata0.jpg
+26/05/2022 17:47:10 devpinoyLogger Error came : testscripts.Keywords.()
+26/05/2022 17:47:11 devpinoyLogger Error came : testscripts.Keywords.()
+26/05/2022 17:47:11 devpinoyLogger Error came : testscripts.Keywords.()
+26/05/2022 17:47:11 devpinoyLogger Error came : testscripts.Keywords.()
+26/05/2022 17:47:11 devpinoyLogger Error came : testscripts.Keywords.()
+26/05/2022 17:47:11 devpinoyLogger Error came : testscripts.Keywords.()
+26/05/2022 17:47:12 devpinoyLogger Error came : testscripts.Keywords.()
+26/05/2022 17:47:12 devpinoyLogger Error came : testscripts.Keywords.()
+26/05/2022 17:47:12 devpinoyLogger Result of the 'Login' test suite execution - Fail
+26/05/2022 17:47:12 devpinoyLogger Executing closeDriver
