@@ -360,7 +360,7 @@ public class Mfunction extends DriverScript {
             JavascriptExecutor js = (JavascriptExecutor) driver;
             RemoteWebElement element = (RemoteWebElement) driver.findElement(By.name(ElementName));
             String ElementID = element.getId();
-            HashMap<String, String> scrollObject = new HashMap<>();
+            HashMap<String, String> scrollObject = new HashMap<String, String>();
             scrollObject.put("element", ElementID);
             scrollObject.put("toVisible", "Test Element");
            //driver.executeScript("mobile: scroll", ImmutableMap.of("direction", "down"));
