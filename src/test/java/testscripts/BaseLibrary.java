@@ -37,8 +37,8 @@ public class BaseLibrary extends DriverScript {
 			capabilities.setCapability("app", "bs://2ba895b5aedc6545e2c655ecb9d51634725b7f3a");
 			//capabilities.setCapability("browserstack.local", "true");
 	    	// Specify device and os_version for testing
-			capabilities.setCapability("device", "Google Pixel 3");
-			capabilities.setCapability("os_version", "9.0");
+			capabilities.setCapability("device", "Samsung Galaxy S21 Ultra");
+			capabilities.setCapability("os_version", "11.0");
 	        
 	    	// Set other BrowserStack capabilities
 			capabilities.setCapability("project", "Demo Java Project");
