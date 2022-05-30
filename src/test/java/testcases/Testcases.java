@@ -18,7 +18,7 @@ public class Testcases extends DriverScript {
 
 	//verifyCountrydropdown
 	public static String verifyCountrydropdown() throws Exception {
-		if (Mfunction.verifyElementDisplayed(By.xpath("//*[@id='spinnerCountry']"), "Country Dropdown")==true)
+		if (Mfunction.verifyElementDisplayed(By.xpath("//*[@text='Afghanistan']"), "Country Dropdown")==true)
 		{
 			result="Pass";
 		}else result="Fail";
@@ -30,8 +30,8 @@ public class Testcases extends DriverScript {
 		
 		Mfunction.input(By.xpath("//*[@id='nameField']"), "username", "Test User");
 		Mfunction.click(By.xpath("//*[@text='Male']"), "Male Checkbox");
-		Mfunction.click(By.xpath("//*[@text=concat('Let', \"'\", 's  Shop')]"), "Lets Shop Button");
-		
+		Mfunction.click(By.xpath("//*[@id='btnLetsShop']"), "Lets Shop Button");
+		Mfunction.waitForElementToLoad(By.xpath("(//*[@id='rvProductList']/*/*/*[@id='productImage' and (./preceding-sibling::* | ./following-sibling::*)[@text]])[1]"), "Shoe Data");
 		if (Mfunction.verifyElementDisplayed(By.xpath("(//*[@id='rvProductList']/*/*/*[@id='productImage' and (./preceding-sibling::* | ./following-sibling::*)[@text]])[1]"), "Shoe Data")==true)
 			
 		{
